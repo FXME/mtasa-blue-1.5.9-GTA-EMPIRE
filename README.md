@@ -1,3 +1,20 @@
+# Рабочая версия исходника для GTA EMPIRE
+
+Этот репозиторий содержит исправленный и рабочий исходный код `mtasa-blue-1.5.9`, адаптированный под GTA EMPIRE. В старой версии исходник невозможно было собрать и запустить, но теперь все ошибки устранены.
+
+## Изменения и исправления:
+- Исправлена загрузка библиотек `netc.dll` и `cef3`.
+- Полностью исправлена возможность сборки и запуска без ошибок.
+
+## Установка и использование:
+1. Скачайте репозиторий.
+2. Убедитесь, что у вас установлены все необходимые зависимости.
+3. Соберите проект с помощью **Visual Studio 2022**.
+4. Запустите и наслаждайтесь стабильной работой!
+
+Если у вас возникли вопросы или предложения, создавайте **Issue** или отправляйте **Pull Request**.  
+Спасибо за поддержку!
+
 ## Multi Theft Auto: San Andreas 
 
 [![Build Status](https://github.com/multitheftauto/mtasa-blue/workflows/Build/badge.svg?event=push&branch=master)](https://github.com/multitheftauto/mtasa-blue/actions?query=branch%3Amaster+event%3Apush) [![Unique servers online](https://img.shields.io/endpoint?url=https%3A%2F%2Fmtasa.com%2Fapi%2Fservers-shields.io.json)](https://community.multitheftauto.com/index.php?p=servers) [![Unique players online](https://img.shields.io/endpoint?url=https%3A%2F%2Fmtasa.com%2Fapi%2Fplayers-shields.io.json)](https://multitheftauto.com) [![Unique players last 24 hours](https://img.shields.io/endpoint?url=https%3A%2F%2Fmtasa.com%2Fapi%2Funique-players-shields.io.json)](https://multitheftauto.com) [![Discord](https://img.shields.io/discord/278474088903606273?label=discord&logo=discord)](https://multitheftauto.com/discord) [![Translate](https://img.shields.io/website?down_message=offline&up_message=translate&url=https%3A%2F%2Ftranslate.multitheftauto.com)](https://translate.multitheftauto.com/)
