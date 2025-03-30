@@ -1,4 +1,7 @@
 @echo off
+echo mtasa-blue-1.5.9-GTA-EMPIRE
+echo by: e1ectr0venik
+echo.
 
 rem Update CEF eventually
 utils\premake5.exe install_cef
@@ -9,7 +12,7 @@ utils\premake5.exe install_unifont
 rem Generate solutions
 utils\premake5.exe vs2019
 
-rem Create a shortcut to the solution - http://superuser.com/questions/392061/how-to-make-a-shortcut-from-cmd
+rem Create a shortcut to the solution
 set SCRIPTFILE="%TEMP%\CreateMyShortcut.vbs"
 (
   echo Set oWS = WScript.CreateObject^("WScript.Shell"^)

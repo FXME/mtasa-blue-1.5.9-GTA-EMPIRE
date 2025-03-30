@@ -1,4 +1,8 @@
 @echo off
+echo mtasa-blue-1.5.9-GTA-EMPIRE
+echo by: e1ectr0venik
+echo.
+
 set VSWHERE=utils\vswhere.exe
 
 rem Download vswhere (command line utility to find MSBuild path)
